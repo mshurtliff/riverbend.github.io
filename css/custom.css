@@ -1,0 +1,474 @@
+/* Custom CSS
+-------------------------------------------------------------------*/
+
+.row-st{
+    margin-top: 60px;
+}
+
+
+.footer-h4 {
+	margin-bottom: 8px;
+    font-size: 16px;
+}
+
+a.parade {
+color: #85afc8;
+position: absolute;
+left: 50%;
+-webkit-transform: translateX(-50%);
+transform: translateX(-50%);
+top: 30px;
+font-size: 17px;
+font-weight: 100;
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1799px) {
+    li.parade-mob a{
+    	display: none;
+    }
+}
+
+@media only screen and (min-width: 0) and (max-width: 640px) {
+.footer-h4 {
+	margin-bottom: 8px;
+    font-size: 16px;
+        margin-top: 10px;
+}
+    
+    a.parade {
+    	display: none;
+    }
+    
+    li.parade-mob a {
+    font-size: 17px !important;
+font-weight: 100 !important;
+        color: #85afc8 !important;
+    }
+
+}
+
+.footer-p {
+	font-size: 13px;
+}
+
+.footer-a {
+	margin-left: 5px;
+    text-decoration: underline;
+}
+
+.developer-logo {
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.builders-h1 {
+	margin-top: 60px;
+}
+
+.trade-h2 {
+	margin-bottom: -5px;
+    margin-top: 45px;
+}
+
+
+.stock-h2 {
+	margin-top: 20px;
+}
+
+.btn-success-st1 {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+    box-shadow: 3px 3px 1px #888888;
+    width: 285px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.btn-success-st2 {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+    box-shadow: 3px 3px 1px #888888;
+}
+
+@media only screen and (min-width: 0) and (max-width: 640px) {
+    
+    .addthis_inline_share_toolbox {
+    	margin-top: 20px;
+    }
+    
+    
+    .mobile-buy-now {
+        color: #fff;
+    	background-color: #000;
+    	border-color: #000;
+    	box-shadow: 3px 3px 1px #888888;
+    	float: right;
+            z-index: 999;
+    position: relative;
+    	font-size: 18px;
+    	padding: 10px 20px;
+    	margin-top: -50px;
+    	margin-right: 35px;
+    	margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 2080px) {
+    .mobile-buy-now {display: none;}
+}
+
+@media only screen and (min-width: 0) and (max-width: 1024px) {
+.btn-success-st1 {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+    box-shadow: 3px 3px 1px #888888;
+    float: none;
+    margin-bottom: 20px;
+}
+
+.btn-success-st2 {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+    box-shadow: 3px 3px 1px #888888;
+         margin-bottom: 20px;
+        margin-left: 70px;
+}
+}
+
+
+.quote-page-title {
+ 	margin-top: 60px;   
+}
+
+.page-title h1.title-st {
+	margin-top: 70px;
+}
+
+.p-homepage {
+	font-size: 20px;
+}
+
+
+.figure1 figcaption a {
+    display: block;
+    background-color: #EDEDED;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+	color: #B0B0B0;
+    float: left;
+    text-align: center;
+    min-width: 450px;
+}
+
+ .google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+@media only screen and (min-width: 0) and (max-width: 640px) {
+    .mobile-h1 {margin-top: 30px;}
+    .mobile-h3 {margin-top: 40px;}
+}
+
+.plan-details {margin-top: 60px;}
+
+
+
+.btn-st {
+    box-shadow: 3px 3px 1px #888888;
+    background: #000;
+    width: 275px;
+    color: white;
+    text-transform: none;
+    font-size: 18px;
+}
+
+.btn-st a{
+	color: #fff;
+}
+
+.custom-row {
+	margin-bottom: 45px;
+}
+
+.paragraph-st {margin-bottom: -35px;}
+
+.stock-quote {margin-top: 45px;}
+
+.clear {
+	margin: 20px;
+}
+@media only screen and (min-width: 0) and (max-width: 640px) {
+
+ .clear {
+    	margin: 20px auto;
+    }
+    
+}
+
+input.cat_textbox,
+textarea.cat_listbox,
+select.cat_dropdown,
+select.cat_listbox {
+	width: 400px;
+    height: 35px;
+}
+
+.title-large-st {
+	margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.title-two-large {
+ position: absolute;
+}
+
+.portfolio-description { 
+	font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.home-listing {
+	margin-bottom: 15px;
+}
+
+
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+
+    .col-md-4 {
+        margin-top: 120px;
+    	margin-bottom: 245px;
+    }
+    
+    .row-st {
+    	margin-top: -350px;
+    }
+    
+    .p-homepage {
+    	margin-top: -200px;
+    }
+    
+    .title-large-st {
+    	margin-top: -180px;
+    }
+    
+    .post-media {
+    	margin-top: -190px;
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (min-width: 0) and (max-width: 640px) {
+	
+    .mobile-row-st {
+    	margin-top: -85px;
+    }
+    
+    input.cat_textbox,
+textarea.cat_listbox,
+select.cat_dropdown,
+select.cat_listbox {
+	width: 300px;
+}
+    
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .mobile-row-st {
+    	margin-top: -135px;
+    }
+    
+    .mobile-col {
+    	margin-bottom: -80px;
+    }
+    
+    .mb60-st {
+    	margin-top: 450px;
+    }
+    
+    
+}
+
+
+.stock-floor-plan {
+	margin-top: 55px;
+}
+
+.profile-row-st {
+	margin-top: -20px;
+}
+
+.portfolio-details-title {
+	margin-left: 15px;
+    color: #000;
+    z-index: 0;
+}
+
+.back-btn {
+	margin-left: 15px;
+    font-size: 16px;
+    font-weight: 100;
+    color: #9E9E9E;
+    text-transform: uppercase;
+    z-index: 9999;
+}
+
+.additional {
+	margin-top: -30px;
+}
+
+.container2-st {
+	margin-top: 45px;
+}
+div.search-stock {margin-bottom: 80px;}
+
+@media (min-width: 992px) {
+.col-md-1.column-st {
+    width: 6.33333333%;
+    }
+}
+
+.form label.search-label, .webform label.search-label {
+    font-size: 17px;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+.form label.search-label-st, .webform label.search-label-st {
+         font-size: 20px;
+    color: #000;
+    margin-left: 30px;
+    width: 250px;
+    border-bottom: 1px solid #000;
+}
+
+@media only screen and (min-width: 0) and (max-width: 640px) {
+    .form label.search-label-st, .webform label.search-label-st{
+    	width: 200px;
+    }
+}
+
+.form label.search-label2, .webform label.search-label2 {
+    font-size: 17px;
+    color: #000;
+    margin-top:	30px;
+    margin-left: -30px;
+    margin-bottom: 8px;
+}
+
+.form label.number-label, .webform label.number-label {
+	margin-left: 6px;
+    font-size: 14px;
+}
+
+@media only screen and (min-width: 0) and (max-width: 1150px) {
+.form label.number-label, .webform label.number-label {
+	margin-left: 0px;
+    font-size: 14px;
+}
+}
+
+.form input.box-st, .webform input.box-st {
+    margin-left: -17px;
+    width: 100px;
+}
+
+form.search-form {
+ border: 1px solid #444;
+ padding: 0 0 0 15px;
+}
+
+.add-cart a em {
+    width: 38px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #232323;
+    color: #fff;
+    margin-right: 8px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+header .cartSummary {
+    width: auto;
+    display: inline-block;
+    color: #fff;
+}
+
+.cartSummary.notEmpty1 {
+    display: none;
+}
+
+
+
+:hov
+
+.cls
+
+element.style {
+}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+* {
+    margin: 0 auto;
+    padding: 0;
+    outline: none;
+    list-style: none;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div.webappsearchresults {
+	font-size: 32px;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 45px;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from div.cartSummary.empty1
+* {
+    margin: 0 auto;
+    padding: 0;
+    outline: none;
+    list-style: none;
+}
+
+
+span.blue-caret {
+color: #1381c5;
+    font-size: 40px;
+    margin-top: -15px;
+    float: right;
+}
+
+ul.fun li {
+	list-style: disc;
+	margin-left: 25px;
+	font-weight: 100;
+	font-size: 15px;
+   
+}
